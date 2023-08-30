@@ -8,7 +8,7 @@
         <mj-text>We’re excited to share the latest speaker presentations for APHON 2023. Set a reminder for the following Servier events.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding-left="25px" padding-right="25px">
       <mj-wrapper padding-left="25px" padding-right="25px">
         <mj-column background-color="#EBEBF9">
           <mj-text>Non-NCPD Innovation Showcase: Deplete to Defeat: Asparagine Depletion in T-Cell ALL</mj-text>
