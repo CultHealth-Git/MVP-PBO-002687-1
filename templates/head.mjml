@@ -4,7 +4,8 @@
   <mj-breakpoint width="599px" />
   <mj-attributes>
     <mj-all font-family="arial" ico-font-family="arial" font-size="15px" color="#555555" line-height="18px" />
-    <mj-section>
+    <mj-section padding="0 25px">
+    <mj-wrapper padding="0 25px">
     <mj-text padding-bottom="15px" padding-top="0" padding-left="0" padding-right="0" />
   </mj-attributes>
   <mj-html-attributes>

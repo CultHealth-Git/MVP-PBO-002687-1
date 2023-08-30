@@ -1,15 +1,15 @@
 <mjml>
   <mj-include path="./templates/head.mjml">
   <mj-body>
-    <mj-section padding-bottom="10px" padding-top="20px" background-color="#FFFFFF">
+    <mj-section padding-bottom="10px" padding-top="25px" background-color="#FFFFFF">
       <mj-column>
         <mj-image src="./images/hero.png" alt="Save the date, for the Servier Speaker Program"/>
         <mj-text padding-top="28px">Dear [Dr {Last Name} OR Healthcare Professional,</mj-text>
         <mj-text>We’re excited to share the latest speaker presentations for APHON 2023. Set a reminder for the following Servier events.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding-left="25px" padding-right="25px">
-      <mj-wrapper padding-left="25px" padding-right="25px">
+    <mj-section>
+      <mj-wrapper>
         <mj-column background-color="#EBEBF9">
           <mj-text>Non-NCPD Innovation Showcase: Deplete to Defeat: Asparagine Depletion in T-Cell ALL</mj-text>
           <mj-text>Presented by Katherine Mason, MSN, APRN, PNP-PC, CPHON</mj-text>
@@ -17,9 +17,36 @@
           <mj-text>7:10 AM – 7:40 AM ET</mj-text>
           <mj-text>Huntington Convention Center of Cleveland</mj-text>
           <mj-text>This presentation will overview T-cell ALL as well as its treatment in pediatric and young adult patients.</mj-text>
-          <mj-button>Learn More</mj-button>
+          <mj-button background-color="#D44233" color="white">Learn More</mj-button>
         </mj-column>
       </mj-wrapper>
+    </mj-section>
+    </mj-section>
+    <mj-section>
+      <mj-wrapper>
+        <mj-column background-color="#EBEBF9">
+          <mj-text>Non-NCPD Lunch Symposium: Managing Allergic and Non-Allergic Asparaginase Reactions: A Case-Based Approach</mj-text>
+          <mj-text>Presented by Kelly Garvin, MA, BSN, RN, OCN
+          and Jillian Greenstein, BSN, RN</mj-text>
+          <mj-text>Friday, September 22, 2023</mj-text>
+          <mj-text>12:30 PM – 1:30 PM ET</mj-text>
+          <mj-text>Hope Ballroom</mj-text>
+          <mj-text>This presentation will discuss how to differentiate and monitor for allergic and non-allergic reactions in patients treated with asparaginase therapy.</mj-text>
+          <mj-button background-color="#D44233" color="white">Learn More</mj-button>
+        </mj-column>
+      </mj-wrapper>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-weight="bold" color="#24226A">
+        To learn more about Servier Pharmaceuticals, visit <a href="https://servier.us/">servier.us</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image width="175px" src="./images/logo-servier.png"></mj-image>
+      </mj-column>
     </mj-section>
     <mj-include path="./templates/footer.mjml">
   </mj-body>
