@@ -1,15 +1,15 @@
 <mjml>
   <mj-include path="./templates/head.mjml">
   <mj-body>
-    <mj-section padding-bottom="10px" padding-top="25px" background-color="#FFFFFF">
+    <mj-section padding-bottom="0" padding-top="25px" background-color="#FFFFFF">
       <mj-column>
-        <mj-image src="./images/hero.png" alt="Save the date, for the Servier Speaker Program"/>
+        <mj-image src="./images/hero.png" alt="Save the date, for the Servier Speaker Program" />
         <mj-text padding-top="28px">Dear [Dr {Last Name} OR Healthcare Professional,</mj-text>
-        <mj-text>We’re excited to share the latest speaker presentations for APHON 2023. Set a reminder for the following Servier events.</mj-text>
+        <mj-text padding-bottom="0">We’re excited to share the latest speaker presentations for APHON 2023. Set a reminder for the following Servier events.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-wrapper>
+    <mj-wrapper>
+      <mj-section>
         <mj-column background-color="#EBEBF9">
           <mj-text>Non-NCPD Innovation Showcase: Deplete to Defeat: Asparagine Depletion in T-Cell ALL</mj-text>
           <mj-text>Presented by Katherine Mason, MSN, APRN, PNP-PC, CPHON</mj-text>
@@ -19,11 +19,10 @@
           <mj-text>This presentation will overview T-cell ALL as well as its treatment in pediatric and young adult patients.</mj-text>
           <mj-button background-color="#D44233" color="white">Learn More</mj-button>
         </mj-column>
-      </mj-wrapper>
-    </mj-section>
-    </mj-section>
-    <mj-section>
-      <mj-wrapper>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper>
+      <mj-section>
         <mj-column background-color="#EBEBF9">
           <mj-text>Non-NCPD Lunch Symposium: Managing Allergic and Non-Allergic Asparaginase Reactions: A Case-Based Approach</mj-text>
           <mj-text>Presented by Kelly Garvin, MA, BSN, RN, OCN
@@ -34,8 +33,8 @@
           <mj-text>This presentation will discuss how to differentiate and monitor for allergic and non-allergic reactions in patients treated with asparaginase therapy.</mj-text>
           <mj-button background-color="#D44233" color="white">Learn More</mj-button>
         </mj-column>
-      </mj-wrapper>
-    </mj-section>
+      </mj-section>
+    </mj-wrapper>
     <mj-section>
       <mj-column>
         <mj-text align="center" font-weight="bold" color="#24226A">
