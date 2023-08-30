@@ -1,0 +1,7 @@
+<mj-section padding-top="0" padding-bottom="0px" background-color="#FFFFFF">
+  <mj-column>
+    <mj-text mj-class="small" padding-top="3px" font-size="10px" line-height="13px">
+      {{veevaCode}}&nbsp;&nbsp;{{veevaDate}}
+    </mj-text>
+  </mj-column>
+</mj-section>
