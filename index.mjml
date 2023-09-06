@@ -17,7 +17,7 @@
             <mj-social-element src="./images/cal.png" icon-size="17px">Friday, September 22, 2023</mj-social-element>
           </mj-social>
           <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/clock.png" icon-size="17px">7:10 am – 7:40 am ET</mj-social-element>
+            <mj-social-element src="./images/clock.png" icon-size="17px">7:10 <span style="font-variant:all-small-caps;">AM</span> – 7:40 <span style="font-variant:all-small-caps;">AM</span> ET</mj-social-element>
           </mj-social>
           <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
             <mj-social-element src="./images/location.png" icon-size="17px">Huntington Convention Center of Cleveland</mj-social-element>
@@ -37,7 +37,7 @@
             <mj-social-element src="./images/cal.png" icon-size="17px">Friday, September 22, 2023</mj-social-element>
           </mj-social>
           <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/clock.png" icon-size="17px">12:30 pm – 1:30 pm ET</mj-social-element>
+            <mj-social-element src="./images/clock.png" icon-size="17px">12:30 <span style="font-variant:all-small-caps;">PM</span> – 1:30 <span style="font-variant:all-small-caps;">PM</span> ET</mj-social-element>
           </mj-social>
           <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
             <mj-social-element src="./images/location.png" icon-size="17px">Hope Ballroom</mj-social-element>

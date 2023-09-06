@@ -31,6 +31,6 @@
       margin: 0;
       padding: 0;
       margin: auto;
-    }
+  
   </mj-style>
 </mj-head>
