@@ -16,10 +16,12 @@
           <mj-text padding-bottom="0" padding-left="15px" padding-right="15px" padding-bottom="20px">You are invited to a very special event with MVP: Momentum and Value for People of Color! At <span style="color:#FF00EB">[event name]</span>, we will keep up our momentum by <span style="color:#FF00EB">[hosting a variety of fun activities]</span> and <span style="color:#FF00EB">[recognizing our generous donors]</span>. Please join us for an inspiring <span style="color:#FF00EB">[day/night]</span> as we help create equity and access to opportunity for young people of color!</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding-left="35px" padding-right="35px">
+    </mj-wrapper>
+    <mj-wrapper padding="25px" background-color="#FFE085">
+      <mj-section padding="25px" css-class="rounded">
         <mj-group>
-          <mj-column css-class="rounded">
-            <mj-text color="#142D51" font-size="16px">Presented by Katherine Mason, MSN, APRN, PNP-PC, CPHON</mj-text>
+          <mj-column background-color="#FFF4DF">
+            
             <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
             <mj-social-element src="./images/calendar-icon.png" icon-size="50%">Friday, September 22, 2023</mj-social-element>
             </mj-social>
