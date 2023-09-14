@@ -3,11 +3,11 @@
   <mj-preview>{{title}}</mj-preview>
   <mj-breakpoint width="609px" />
   <mj-attributes>
-    <mj-all font-family="arial" ico-font-family="arial" font-size="15px" color="#555555" line-height="18px" />
+    <mj-all font-family="roboto" ico-font-family="roboto" font-size="15px" color="#1E143E" line-height="20px" />
     <mj-section padding="0" />
     <mj-image padding="0" />
     <mj-column padding="20px 25px" />
-    <mj-wrapper padding="0 25px" />
+    <mj-wrapper padding="0" />
     <mj-text padding="0 0 15px" padding-top="0" padding-bottom="15px" padding-left="0" padding-right="0" />
   </mj-attributes>
   <mj-html-attributes>
@@ -18,7 +18,7 @@
       <mj-html-attribute name="role">presentation</mj-html-attribute>
     </mj-selector>
   </mj-html-attributes>
-  <mj-style inline="inline">
+  <mj-style inline="inline">.rounded > table { border-collapse:separate; border-radius: 50px; }
   </mj-style>
   <mj-style>
     html, body {
@@ -31,6 +31,5 @@
       margin: 0;
       padding: 0;
       margin: auto;
-  
   </mj-style>
 </mj-head>

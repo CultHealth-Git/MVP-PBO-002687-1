@@ -1,59 +1,45 @@
 <mjml>
   <mj-include path="./templates/head.mjml">
   <mj-body width="610px">
-    <mj-section padding-bottom="0" padding-top="25px" background-color="#FFFFFF">
-      <mj-column padding="0 0 25px">
-        <mj-image src="./images/hero.png" alt="Save the date, for the Servier Speaker Program" />
-        <mj-text padding-top="28px">Dear [Dr {Last Name} OR Healthcare Professional,</mj-text>
-        <mj-text padding-bottom="0">We’re excited to share the latest speaker presentations for APHON 2023. Set a reminder for the following Servier events.</mj-text>
+    <mj-section vertical-align="middle" full-width="full-width" background-color="#FFF4DF">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-bottom="25px" padding-top="25px"></mj-image>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="./images/event_image_container.png" alt="Event image" padding-bottom="15px" padding-top="15px"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-wrapper>
+    <mj-wrapper background-color="#FFE085">
       <mj-section>
-        <mj-column background-color="#EBEBF9">
-          <mj-text color="#24226A" font-weight="bold" font-size="18px" line-height="22px" padding-bottom="8px">Non-NCPD Innovation Showcase: Deplete to Defeat: Asparagine Depletion in T-Cell ALL</mj-text>
-          <mj-text color="#142D51" font-size="16px">Presented by Katherine Mason, MSN, APRN, PNP-PC, CPHON</mj-text>
-          <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/cal.png" icon-size="17px">Friday, September 22, 2023</mj-social-element>
-          </mj-social>
-          <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/clock.png" icon-size="17px">7:10 <span style="font-variant:all-small-caps;">AM</span> – 7:40 <span style="font-variant:all-small-caps;">AM</span> ET</mj-social-element>
-          </mj-social>
-          <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/location.png" icon-size="17px">Huntington Convention Center of Cleveland</mj-social-element>
-          </mj-social>
-          <mj-text padding-top="15px" font-size="14px" padding-right="10px">This presentation will provide an overview of the role of asparagine depletion in T-cell ALL and the use of asparaginase in the treatment of pediatric, adolescent, and young adult patients.</mj-text>
-          <mj-button href="https://aphon2023.eventscribe.net/index.asp?presTarget=2522305" background-color="#D44233" color="white" align="left" padding-left="0" width="169px" font-weight="bold">Learn more</mj-button>
+        <mj-column background-color="#FFE085" full-width="full-width">
+          <mj-text padding-top="10px" padding-left="15px" padding-right="15px">Dear <span style="color:#FF00EB">[first name, Last name],</span></mj-text>
+          <mj-text padding-bottom="0" padding-left="15px" padding-right="15px" padding-bottom="20px">You are invited to a very special event with MVP: Momentum and Value for People of Color! At <span style="color:#FF00EB">[event name]</span>, we will keep up our momentum by <span style="color:#FF00EB">[hosting a variety of fun activities]</span> and <span style="color:#FF00EB">[recognizing our generous donors]</span>. Please join us for an inspiring <span style="color:#FF00EB">[day/night]</span> as we help create equity and access to opportunity for young people of color!</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-left="35px" padding-right="35px">
+        <mj-group background-color="#FFF4DF" >
+          <mj-column background-color="#FFF4DF" border="3px solid black" css-class="rounded">
+            <mj-text color="#142D51" font-size="16px">Presented by Katherine Mason, MSN, APRN, PNP-PC, CPHON</mj-text>
+            <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
+            <mj-social-element src="./images/calendar-icon.png" icon-size="50%">Friday, September 22, 2023</mj-social-element>
+            </mj-social>
+            <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
+            <mj-social-element src="./images/time-icon.png" icon-size="50%">7:10 <span style="font-variant:all-small-caps;">AM</span> – 7:40 <span style="font-variant:all-small-caps;">AM</span> ET</mj-social-element>
+            </mj-social>
+            <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
+            <mj-social-element src="./images/location-icon.png" icon-size="50%"><strong>Location:</strong></mj-social-element>
+            </mj-social>
+            <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px">Register now &#8250;</mj-button>
+          </mj-column>
+        </mj-group>
+    </mj-section> 
+    <mj-section>
+      <mj-column background-color="#FFE085" full-width="full-width">
+        <mj-text padding-top="15px" font-size="15px" padding-left="15px" padding-right="15px">We understand that you may not be able to participate, but if you are interested, you can become an event sponsor or donate to MVP.</mj-text>
+          <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px">Donate &#8250;</mj-button>
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-wrapper>
-      <mj-section padding-top="25px">
-        <mj-column background-color="#EBEBF9">
-          <mj-text color="#24226A" font-weight="bold" font-size="18px" line-height="22px" padding-bottom="8px">Non-NCPD Lunch Symposium: Managing Allergic and Non-Allergic Asparaginase Reactions: A Case-Based Approach</mj-text>
-          <mj-text color="#142D51" font-size="16px">Presented by Kelly Garvin, MA, BSN, NBSP, RN, OCN
-          and Jillian Greenstein, BSN, RN</mj-text>
-          <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/cal.png" icon-size="17px">Friday, September 22, 2023</mj-social-element>
-          </mj-social>
-          <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/clock.png" icon-size="17px">12:30 <span style="font-variant:all-small-caps;">PM</span> – 1:30 <span style="font-variant:all-small-caps;">PM</span> ET</mj-social-element>
-          </mj-social>
-          <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/location.png" icon-size="17px">Hope Ballroom</mj-social-element>
-          </mj-social>
-          <mj-text padding-top="15px" font-size="14px">This presentation will discuss how to differentiate and monitor for allergic and non-allergic reactions in patients treated with asparaginase therapy.</mj-text>
-          <mj-button href="https://aphon2023.eventscribe.net/index.asp?presTarget=2497895" background-color="#D44233" color="white" align="left" padding-left="0" width="169px" font-weight="bold">Learn more</mj-button>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
-    <mj-section padding="0">
-      <mj-column padding-bottom="15px">
-        <mj-text align="center" font-size="16px" font-weight="bold" color="#24226A" padding-bottom="10px">
-        To learn more about Servier Pharmaceuticals, visit <a target="_blank" href="https://servier.us/" style="color:#D44233; text-decoration:underline; font-weight:bold">Servier.us</a>.
-        </mj-text>
-      </mj-column>
-    </mj-section>
     <mj-include path="./templates/footer.mjml">
   </mj-body>
 </mjml>
