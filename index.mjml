@@ -17,8 +17,8 @@
         </mj-column>
       </mj-section>
       <mj-section padding-left="35px" padding-right="35px">
-        <mj-group background-color="#FFF4DF" >
-          <mj-column background-color="#FFF4DF" border="3px solid black" css-class="rounded">
+        <mj-group>
+          <mj-column css-class="rounded">
             <mj-text color="#142D51" font-size="16px">Presented by Katherine Mason, MSN, APRN, PNP-PC, CPHON</mj-text>
             <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
             <mj-social-element src="./images/calendar-icon.png" icon-size="50%">Friday, September 22, 2023</mj-social-element>
