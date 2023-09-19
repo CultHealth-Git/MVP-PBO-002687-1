@@ -6,9 +6,9 @@
     <mj-all font-family="roboto" ico-font-family="roboto" font-size="15px" color="#1E143E" line-height="20px" />
     <mj-section padding="0" />
     <mj-image padding="0" />
-    <mj-column padding="20px 25px" />
+    <mj-column padding="20px 0px" />
     <mj-wrapper padding="0" />
-    <mj-text padding="0 0 15px" padding-top="0" padding-bottom="15px" padding-left="0" padding-right="0" />
+    <mj-text padding-top="0" padding-bottom="15px" padding-left="0" padding-right="0" />
   </mj-attributes>
   <mj-html-attributes>
     <mj-selector path=".list table table">
@@ -19,11 +19,14 @@
     </mj-selector>
   </mj-html-attributes>
   <mj-style inline="inline">
+    .rounded-top { border-collapse: separate; border-right: 3px solid #FF8020; border-top: 3px solid #FF8020; border-left: 3px solid #FF8020; background-color: #FFF4DF; }
     .rounded { border-collapse: separate; border: 3px solid #FF8020; background-color: #FFF4DF; }
+    .rounded-mid { border-collapse: separate; border-left: 3px solid #FF8020; border-right: 3px solid #FF8020; background-color: #FFF4DF; }
+    .rounded-bottom { border-collapse: separate; border-bottom: 3px solid #FF8020; border-left: 3px solid #FF8020; border-right: 3px solid #FF8020; background-color: #FFF4DF; }
   </mj-style>
   <mj-style>
     html, body {
-      min-width: 375px!important;
+      min-width: 325px!important;
     }
     body {
       width: 100% !important;
