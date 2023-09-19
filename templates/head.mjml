@@ -19,7 +19,7 @@
     </mj-selector>
   </mj-html-attributes>
   <mj-style inline="inline">
-    .rounded { border-collapse: separate; border-radius: 50px; border: 3px solid #FF8020; background-color: #FFF4DF; }
+    .rounded { border-collapse: separate; border: 3px solid #FF8020; background-color: #FFF4DF; }
   </mj-style>
   <mj-style>
     html, body {

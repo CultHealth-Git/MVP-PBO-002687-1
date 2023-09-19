@@ -1,7 +1,7 @@
 <mjml>
   <mj-include path="./templates/head.mjml">
   <mj-body width="610px">
-    <mj-section vertical-align="middle" full-width="full-width" background-color="#FFF4DF">
+    <mj-section vertical-align="middle" background-color="#FFF4DF">
       <mj-column width="50%" vertical-align="middle">
         <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-bottom="25px" padding-top="25px"></mj-image>
       </mj-column>
@@ -20,28 +20,35 @@
     <mj-wrapper padding="25px" background-color="#FFE085">
       <mj-section padding="25px" css-class="rounded">
         <mj-group>
-          <mj-column background-color="#FFF4DF">
-            
-            <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/calendar-icon.png" icon-size="50%">Friday, September 22, 2023</mj-social-element>
+          <mj-column>
+            <mj-social icon-size="25px" align="left">
+              <mj-social-element src="./images/calendar-icon.png" icon-size="45%" padding-right="25px"></mj-social-element>
             </mj-social>
-            <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/time-icon.png" icon-size="50%">7:10 <span style="font-variant:all-small-caps;">AM</span> – 7:40 <span style="font-variant:all-small-caps;">AM</span> ET</mj-social-element>
-            </mj-social>
-            <mj-social font-size="14px" icon-size="30px" mode="horizontal" align="left" padding="0" text-padding="0 5px">
-            <mj-social-element src="./images/location-icon.png" icon-size="50%"><strong>Location:</strong></mj-social-element>
-            </mj-social>
-            <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px">Register now &#8250;</mj-button>
+          </mj-column>
+          <mj-column>
+            <mj-text>Date: </mj-text>
+          </mj-column>
+          <mj-column padding-left="25px">
+            <mj-text><span style="color:#FF00EB">[00:00:0000]</span></mj-text>
           </mj-column>
         </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-group>
+        <mj-section>
+          <mj-column>
+            <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px">Register now &#8250;</mj-button>
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>
     </mj-section> 
-    <mj-section>
-      <mj-column background-color="#FFE085" full-width="full-width">
-        <mj-text padding-top="15px" font-size="15px" padding-left="15px" padding-right="15px">We understand that you may not be able to participate, but if you are interested, you can become an event sponsor or donate to MVP.</mj-text>
+      <mj-section>
+        <mj-column background-color="#FFE085">
+          <mj-text padding-top="15px" font-size="15px" padding-left="15px" padding-right="15px">We understand that you may not be able to participate, but if you are interested, you can become an event sponsor or donate to MVP.</mj-text>
           <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px">Donate &#8250;</mj-button>
         </mj-column>
       </mj-section>
-    </mj-wrapper>
-    <mj-include path="./templates/footer.mjml">
+  </mj-wrapper>
+  <mj-include path="./templates/footer.mjml">
   </mj-body>
 </mjml>
