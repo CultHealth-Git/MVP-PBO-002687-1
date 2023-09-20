@@ -3,7 +3,7 @@
   <mj-body width="610px">
     <mj-section background-color="#FFF4DF">
       <mj-column width="50%" vertical-align="middle">
-        <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-bottom="25px" padding-top="25px" padding-left="25px" width="208px" align="left"></mj-image>
+        <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-bottom="25px" padding-top="25px" padding-right="50px" width="208px" align="center" css-class="logo-top"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
         <mj-image src="./images/event_image_container.png" alt="Event image" padding-bottom="15px" padding-top="15px" padding-right="0px" width="233px"></mj-image>
@@ -26,7 +26,7 @@
           <mj-image align="right" src="./images/calendar-icon.png" width="34px" alt="Calendar icon" padding-right="10px" padding-top="5px" />
         </mj-column>
         <mj-column vertical-align="top" width="31%">
-          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Date:<br><span style="color:#FF00EB">[00:00:0000]</span></mj-text>
+          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Date:<br><span style="color:#FF00EB; font-weight:400;">[00:00:0000]</span></mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -36,7 +36,7 @@
           <mj-image align="right" src="./images/time-icon.png" width="30px" alt="Time icon" padding-right="10px" padding-top="5px"/>
         </mj-column>
         <mj-column vertical-align="top" width="31%">
-          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Time:<br><span style="color:#FF00EB">[00:00 am/pm]</span></mj-text>
+          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Time:<br><span style="color:#FF00EB; font-weight:400;">[00:00 am/pm]</span></mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -46,7 +46,7 @@
           <mj-image align="right" src="./images/location-icon.png" width="23px" alt="Location icon" padding-right="10px" />
         </mj-column>
         <mj-column vertical-align="top" width="31%" padding="0px">
-          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="5px">Location:<br><span style="color:#FF00EB">
+          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="5px">Location:<br><span style="color:#FF00EB; font-weight:400;">
             [Street Address Line 1<br/> 
             Street Address Line 2<br/> 
             City, State Zip Code<br/> 
@@ -61,7 +61,7 @@
       </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section padding="25px 25px 0px" css-class="rounded-bottom">
+    <mj-section padding="10px 25px 0px" css-class="rounded-bottom">
     </mj-section> 
   </mj-wrapper>
     <mj-wrapper background-color="#FFE085">

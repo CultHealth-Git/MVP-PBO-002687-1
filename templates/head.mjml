@@ -1,7 +1,7 @@
 <mj-head>
   <mj-title>{{title}}</mj-title>
   <mj-preview>{{title}}</mj-preview>
-  <mj-breakpoint width="609px" />
+  <mj-breakpoint width="599px" />
   <mj-attributes>
     <mj-all font-family="roboto" ico-font-family="roboto" font-size="15px" color="#1E143E" line-height="20px" />
     <mj-section padding="0" />
@@ -35,6 +35,11 @@
       margin: 0;
       padding: 0;
       margin: auto;
+    }
+    @media screen and (max-width: 599px) {
+      .logo-top { padding-right: 0px!important; }
+      .mj-column-per-39 { width: 25%!important; }
+      .mj-column-per-31 { width: 65%!important; }
     }
   </mj-style>
 </mj-head>
