@@ -6,7 +6,7 @@
     <mj-all font-family="roboto" ico-font-family="roboto" font-size="15px" color="#1E143E" line-height="20px" />
     <mj-section padding="0" />
     <mj-image padding="0" />
-    <mj-column padding="20px 0px" />
+    <mj-column padding="10px 0px" />
     <mj-wrapper padding="0" />
     <mj-text padding-top="0" padding-bottom="15px" padding-left="0" padding-right="0" />
   </mj-attributes>

@@ -3,125 +3,74 @@
   <mj-body width="610px">
     <mj-section background-color="#FFF4DF">
       <mj-column width="50%" vertical-align="middle">
-        <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-bottom="25px" padding-top="25px"></mj-image>
+        <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-bottom="25px" padding-top="25px" padding-left="25px" width="208px" align="left"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
-        <mj-image src="./images/event_image_container.png" alt="Event image" padding-bottom="15px" padding-top="15px"></mj-image>
+        <mj-image src="./images/event_image_container.png" alt="Event image" padding-bottom="15px" padding-top="15px" padding-right="0px" width="233px"></mj-image>
       </mj-column>
     </mj-section>
     <mj-wrapper background-color="#FFE085">
       <mj-section>
         <mj-column background-color="#FFE085">
-          <mj-text padding-top="10px" padding-left="15px" padding-right="15px">Dear <span style="color:#FF00EB">[first name, Last name],</span></mj-text>
-          <mj-text padding-bottom="0" padding-left="15px" padding-right="15px" padding-bottom="20px">You are invited to a very special event with MVP: Momentum and Value for People of Color! At <span style="color:#FF00EB">[event name]</span>, we will keep up our momentum by <span style="color:#FF00EB">[hosting a variety of fun activities]</span> and <span style="color:#FF00EB">[recognizing our generous donors]</span>. Please join us for an inspiring <span style="color:#FF00EB">[day/night]</span> as we help create equity and access to opportunity for young people of color!</mj-text>
+          <mj-text padding-top="10px" padding-left="25px" padding-right="25px">Dear <span style="color:#FF00EB">[first name, Last name],</span></mj-text>
+          <mj-text padding-bottom="0" padding-left="25px" padding-right="25px" padding-bottom="20px">You are invited to a very special event with MVP: Momentum and Value for People of Color! At <span style="color:#FF00EB">[event name]</span>, we will keep up our momentum by <span style="color:#FF00EB">[hosting a variety of fun activities]</span> and <span style="color:#FF00EB">[recognizing our generous donors]</span>. Please join us for an inspiring <span style="color:#FF00EB">[day/night]</span> as we help create equity and access to opportunity for young people of color!</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
     <mj-wrapper padding="25px" background-color="#FFE085">
-      <mj-section padding="25px" css-class="rounded">
-        <mj-group>
-          <mj-column vertical-align="top" width="60px">
-            <mj-image src="./images/calendar-icon.png" width="34px" alt="Calendar icon" />
-          </mj-column>
-          <mj-column vertical-align="top" width="90px" >
-            <mj-text align="left">Date: </mj-text>
-          </mj-column>
-          <mj-column vertical-align="top">
-            <mj-text align="left" color="#FF00EB">[00:00:0000]</mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-
-      <mj-section>
-        <mj-column>
-          <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px">Register now &#8250;</mj-button>
-        </mj-column>
-      </mj-section> 
-
-      <mj-section>
-        <mj-column background-color="#FFE085">
-          <mj-text padding-top="15px" font-size="15px" padding-left="15px" padding-right="15px">We understand that you may not be able to participate, but if you are interested, you can become an event sponsor or donate to MVP.</mj-text>
-          <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px">Donate &#8250;</mj-button>
-        </mj-column>
-      </mj-section>
-  </mj-wrapper>
-
-  <mj-section background-color="white">
-    <mj-group>
-      <mj-column width="32%" background-color="red">
-        <mj-text>
-          Content 1
-        </mj-text>
-      </mj-column>
-      <mj-column width="32%" background-color="blue">
-        <mj-text>
-          Content 2
-        </mj-text>
-      </mj-column>
-      <mj-column width="32%" background-color="green">
-        <mj-text>
-          Content 3
-        </mj-text>
-      </mj-column>
-    </mj-group>
-  </mj-section>
-
-  <mj-wrapper padding="25px" background-color="#FFE085">
-    <mj-section padding="25px 25px 0px" css-class="rounded-top">
+    <mj-section padding="15px 25px 0px" css-class="rounded-top">
     </mj-section>
     <mj-section css-class="rounded-mid">
       <mj-group>
-        <mj-column vertical-align="middle" width="30%" background-color="red">
-          <mj-image align="right" src="./images/calendar-icon.png" width="34px" alt="Calendar icon" />
+        <mj-column vertical-align="top" width="39%" padding="0px">
+          <mj-image align="right" src="./images/calendar-icon.png" width="34px" alt="Calendar icon" padding-right="10px" padding-top="5px" />
         </mj-column>
-        <mj-column vertical-align="middle" width="31%">
-          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="10px">Date: </mj-text>
-        </mj-column>
-        <mj-column vertical-align="top" width="33%" background-color="green">
-          <mj-text align="left" color="#FF00EB" padding-top="10px">[00:00:0000]</mj-text>
+        <mj-column vertical-align="top" width="31%">
+          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Date:<br><span style="color:#FF00EB">[00:00:0000]</span></mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section css-class="rounded-mid">
       <mj-group>
-        <mj-column vertical-align="middle" width="30%" background-color="red">
-          <mj-image align="right" src="./images/time-icon.png" width="31px" alt="Time icon" />
+        <mj-column vertical-align="top" width="39%" padding="0px">
+          <mj-image align="right" src="./images/time-icon.png" width="30px" alt="Time icon" padding-right="10px" padding-top="5px"/>
         </mj-column>
-        <mj-column vertical-align="middle" width="31%">
-          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="10px">Time: </mj-text>
-        </mj-column>
-        <mj-column vertical-align="top" width="33%" background-color="green">
-          <mj-text align="left" color="#FF00EB" padding-top="10px">[00:00 am/pm]</mj-text>
+        <mj-column vertical-align="top" width="31%">
+          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Time:<br><span style="color:#FF00EB">[00:00 am/pm]</span></mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section css-class="rounded-mid">
       <mj-group>
-        <mj-column vertical-align="middle" width="30%" background-color="red">
-          <mj-image align="right" src="./images/location-icon.png" width="21px" alt="Location icon" />
+        <mj-column vertical-align="top" width="39%" padding="0px">
+          <mj-image align="right" src="./images/location-icon.png" width="23px" alt="Location icon" padding-right="10px" />
         </mj-column>
-        <mj-column vertical-align="middle" width="31%">
-          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="10px">Location: </mj-text>
-        </mj-column>
-        <mj-column vertical-align="top" width="33%" background-color="green">
-          <mj-text align="left" color="#FF00EB" padding-top="10px">
+        <mj-column vertical-align="top" width="31%" padding="0px">
+          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="5px">Location:<br><span style="color:#FF00EB">
             [Street Address Line 1<br/> 
             Street Address Line 2<br/> 
             City, State Zip Code<br/> 
-            /Virtual]
-          </mj-text>
+            /Virtual] </span></mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section css-class="rounded-mid">
       <mj-group>
-        <mj-column>
+        <mj-column padding="0px">
         <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px">Register now &#8250;</mj-button>
       </mj-column>
       </mj-group>
     </mj-section>
     <mj-section padding="25px 25px 0px" css-class="rounded-bottom">
     </mj-section> 
+  </mj-wrapper>
+    <mj-wrapper background-color="#FFE085">
+      <mj-section>
+        <mj-column background-color="#FFE085">
+          <mj-text padding-top="10px" font-size="15px" padding-left="25px" padding-right="25px">We understand that you may not be able to participate, but if you are interested, you can become an event sponsor or donate to MVP.</mj-text>
+          <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px" padding-bottom="25px">Donate &#8250;</mj-button>
+        </mj-column>
+      </mj-section>
   </mj-wrapper>
   <mj-include path="./templates/footer.mjml">
   </mj-body>

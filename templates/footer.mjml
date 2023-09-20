@@ -1,7 +1,7 @@
 <mj-wrapper>
-  <mj-section vertical-align="middle" full-width="full-width" background-color="#FBF6F4">
+  <mj-section full-width="full-width" background-color="#FBF6F4">
     <mj-column vertical-align="middle" padding-bottom="0px">
-      <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-top="25px" padding-bottom="0px" padding-right="150px" padding-left="150px"></mj-image>
+      <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-top="25px" padding-bottom="10px" padding-right="150px" padding-left="150px" width="208px"></mj-image>
     </mj-column>
   </mj-section>
   <mj-section background-color="#FBF6F4" padding-top="0px">
