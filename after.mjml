@@ -1,0 +1,50 @@
+<mjml>
+  <mj-include path="./templates/head.mjml">
+  <mj-body width="610px">
+    <mj-section background-color="#FFF4DF">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-bottom="25px" padding-top="25px" padding-right="50px" width="208px" align="center" css-class="logo-top"></mj-image>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="./images/event_image_container.png" alt="Event image" padding-bottom="15px" padding-top="15px" padding-right="0px" width="233px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper background-color="#FFE085">
+      <mj-section>
+        <mj-column background-color="#FFE085">
+          <mj-text padding-top="10px" padding-left="25px" padding-right="25px">Dear <span style="color:#FF00EB">[first name, Last name],</span></mj-text>
+          <mj-text padding-bottom="0" padding-left="25px" padding-right="25px" padding-bottom="20px">Thank you for attending our <span style="color:#FF00EB">[event name]</span> event! We're grateful for you sharing this very special time with us as we help young people of color prepare, perfrom, progress, prosper, and pay it forward. We hope to see you at another MVP: Momentum and Value for People of Color event soon!</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper padding="25px" background-color="#FFE085">
+    <mj-section padding="15px 25px 0px" css-class="rounded-top">
+    </mj-section>
+    <mj-section css-class="rounded-mid">
+      <mj-group>
+        <mj-column vertical-align="top" width="100%" padding-left="30px" padding-right="30px">
+          <mj-text align="center" font-size="15px" padding-bottom="5px">If you are interested, you can become our next event sponsor or donate to MVP.</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section css-class="rounded-mid">
+      <mj-group>
+        <mj-column padding="0px">
+        <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="160px" font-weight="bold" border-radius="8px">Donate &#8250;</mj-button>
+      </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding="25px 25px 0px" css-class="rounded-bottom">
+    </mj-section> 
+  </mj-wrapper>
+    <mj-wrapper background-color="#FFE085">
+      <mj-section>
+        <mj-column background-color="#FFE085">
+          <mj-text padding-top="0px" font-size="15px" padding-left="25px" padding-right="25px" align="center">Learn more about our mission, and how we aim to create equality and access to opportunities for young people of color.</mj-text>
+          <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px" padding-bottom="25px">Learn more &#8250;</mj-button>
+        </mj-column>
+      </mj-section>
+  </mj-wrapper>
+  <mj-include path="./templates/footer.mjml">
+  </mj-body>
+</mjml>
