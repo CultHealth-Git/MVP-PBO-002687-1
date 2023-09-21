@@ -4,7 +4,7 @@
   <mj-breakpoint width="599px" />
   <mj-font name="roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400" />
   <mj-attributes>
-    <mj-all font-family="roboto" ico-font-family="roboto" font-size="15px" color="#1E143E" line-height="20px" />
+    <mj-all font-family="roboto, arial" ico-font-family="roboto, arial" font-size="15px" color="#1E143E" line-height="20px" />
     <mj-section padding="0" />
     <mj-image padding="0" />
     <mj-column padding="10px 0px" />

@@ -67,7 +67,7 @@
     <mj-wrapper background-color="#FFE085">
       <mj-section>
         <mj-column background-color="#FFE085">
-          <mj-text padding-top="10px" font-size="15px" padding-left="25px" padding-right="25px">We understand that you may not be able to participate, but if you are interested, you can become an event sponsor or donate to MVP.</mj-text>
+          <mj-text padding-top="10px" font-size="15px" padding-left="25px" padding-right="25px">We understand that you may not be able to participate, but if you are interested, you can become an event sponsor or donate to&nbsp;MVP.</mj-text>
           <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px" padding-bottom="25px">Donate &#8250;</mj-button>
         </mj-column>
       </mj-section>
