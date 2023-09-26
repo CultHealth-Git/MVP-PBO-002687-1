@@ -12,7 +12,7 @@
     <mj-wrapper background-color="#FFE085">
       <mj-section>
         <mj-column background-color="#FFE085">
-          <mj-text padding-top="10px" padding-left="25px" padding-right="25px">Dear <span style="color:#FF00EB">[first name, Last name],</span></mj-text>
+          <mj-text padding-top="10px" padding-left="25px" padding-right="25px">Dear <span style="color:#FF00EB">[first name, Last name]</span>,</mj-text>
           <mj-text padding-bottom="0" padding-left="25px" padding-right="25px" padding-bottom="20px">You are invited to a very special event with MVP: Momentum and Value for People of Color! At <span style="color:#FF00EB">[event name]</span>, we will keep up our momentum by <span style="color:#FF00EB">[hosting a variety of fun activities]</span> and <span style="color:#FF00EB">[recognizing our generous donors]</span>. Please join us for an inspiring <span style="color:#FF00EB">[day/night]</span> as we help create equity and access to opportunity for young people of color!</mj-text>
         </mj-column>
       </mj-section>
@@ -26,7 +26,7 @@
           <mj-image align="right" src="./images/calendar-icon.png" width="34px" alt="Calendar icon" padding-right="10px" padding-top="5px" />
         </mj-column>
         <mj-column vertical-align="top" width="31%">
-          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Date:<br><span style="color:#FF00EB; font-weight:400;">[00:00:0000]</span></mj-text>
+          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Date:<br><span style="color:#FF00EB; font-weight:400;">[00-00-0000]</span></mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -36,7 +36,7 @@
           <mj-image align="right" src="./images/time-icon.png" width="30px" alt="Time icon" padding-right="10px" padding-top="5px"/>
         </mj-column>
         <mj-column vertical-align="top" width="31%">
-          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Time:<br><span style="color:#FF00EB; font-weight:400;">[00:00 am/pm]</span></mj-text>
+          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Time:<br><span style="color:#FF00EB; font-weight:400;">[00:00 <span style="font-variant:all-small-caps;">AM</span>/<span style="font-variant:all-small-caps;">PM</span>]</span></mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
