@@ -26,7 +26,7 @@
           <mj-image align="right" src="./images/calendar-icon.png" width="34px" alt="Calendar icon" padding-right="10px" padding-top="12px" />
         </mj-column>
         <mj-column vertical-align="top" width="31%">
-          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Date:<br><span style="color:#FF00EB; font-weight:400;">[00-00-0000]</span></mj-text>
+          <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Date:<br><span style="color:#FF00EB; font-weight:400;">[<a href="#" style="color:#1E143E; text-decoration:none;">00-00-0000</a>]</span></mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
