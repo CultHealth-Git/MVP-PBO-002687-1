@@ -23,7 +23,7 @@
     <mj-section css-class="rounded-mid">
       <mj-group>
         <mj-column vertical-align="top" width="39%" padding="0px">
-          <mj-image align="right" src="./images/calendar-icon.png" width="34px" alt="Calendar icon" padding-right="10px" padding-top="5px" />
+          <mj-image align="right" src="./images/calendar-icon.png" width="34px" alt="Calendar icon" padding-right="10px" padding-top="12px" />
         </mj-column>
         <mj-column vertical-align="top" width="31%">
           <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Date:<br><span style="color:#FF00EB; font-weight:400;">[00-00-0000]</span></mj-text>
@@ -33,7 +33,7 @@
     <mj-section css-class="rounded-mid">
       <mj-group>
         <mj-column vertical-align="top" width="39%" padding="0px">
-          <mj-image align="right" src="./images/time-icon.png" width="30px" alt="Time icon" padding-right="10px" padding-top="5px"/>
+          <mj-image align="right" src="./images/time-icon.png" width="30px" alt="Time icon" padding-right="12px" padding-top="12px"/>
         </mj-column>
         <mj-column vertical-align="top" width="31%">
           <mj-text align="left" font-size="15px" font-weight="bold" padding-top="0px">Time:<br><span style="color:#FF00EB; font-weight:400;">[00:00 <span style="font-variant:all-small-caps;">AM</span>/<span style="font-variant:all-small-caps;">PM</span>]</span></mj-text>
@@ -43,7 +43,7 @@
     <mj-section css-class="rounded-mid">
       <mj-group>
         <mj-column vertical-align="top" width="39%" padding="0px">
-          <mj-image align="right" src="./images/location-icon.png" width="23px" alt="Location icon" padding-right="10px" />
+          <mj-image align="right" src="./images/location-icon.png" width="23px" alt="Location icon" padding-right="15px" padding-top="8px" />
         </mj-column>
         <mj-column vertical-align="top" width="31%" padding="0px">
           <mj-text align="left" font-size="15px" font-weight="bold" padding-top="5px">Location:<br><span style="color:#FF00EB; font-weight:400;">
@@ -57,7 +57,7 @@
     <mj-section css-class="rounded-mid">
       <mj-group>
         <mj-column padding="0px">
-        <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px">Register now &#8250;</mj-button>
+        <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" padding-right="0" width="180px" font-weight="bold" border-radius="8px">Register now &#8250;</mj-button>
       </mj-column>
       </mj-group>
     </mj-section>
@@ -68,7 +68,7 @@
       <mj-section>
         <mj-column background-color="#FFE085">
           <mj-text padding-top="10px" font-size="15px" padding-left="25px" padding-right="25px">We understand that you may not be able to participate, but if you are interested, you can become an event sponsor or donate to&nbsp;MVP.</mj-text>
-          <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px" padding-bottom="25px">Donate &#8250;</mj-button>
+          <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" padding-right="0" width="180px" font-weight="bold" border-radius="8px" padding-bottom="25px">Donate &#8250;</mj-button>
         </mj-column>
       </mj-section>
   </mj-wrapper>

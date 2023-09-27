@@ -30,7 +30,7 @@
     <mj-section css-class="rounded-mid">
       <mj-group>
         <mj-column padding="0px">
-        <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="160px" font-weight="bold" border-radius="8px">Donate &#8250;</mj-button>
+        <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" padding-right="0" width="160px" font-weight="bold" border-radius="8px">Donate &#8250;</mj-button>
       </mj-column>
       </mj-group>
     </mj-section>
@@ -41,7 +41,7 @@
       <mj-section>
         <mj-column background-color="#FFE085">
           <mj-text padding-top="0px" font-size="15px" padding-left="25px" padding-right="25px" align="center">Learn more about our mission, and how we aim to create equity and access to opportunities for young people of color.</mj-text>
-          <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" width="180px" font-weight="bold" border-radius="8px" padding-bottom="25px">Learn more &#8250;</mj-button>
+          <mj-button href="#" background-color="#1E143E" color="white" align="center" padding-left="0" padding-right="0" width="180px" font-weight="bold" border-radius="8px" padding-bottom="25px">Learn more &#8250;</mj-button>
         </mj-column>
       </mj-section>
   </mj-wrapper>
