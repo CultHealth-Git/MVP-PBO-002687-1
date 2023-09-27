@@ -19,12 +19,6 @@
       <mj-html-attribute name="role">presentation</mj-html-attribute>
     </mj-selector>
   </mj-html-attributes>
-  <mj-style inline="inline">
-    .rounded-top { border-collapse: separate; border-right: 3px solid #FF8020; border-top: 3px solid #FF8020; border-left: 3px solid #FF8020; background-color: #FFF4DF; }
-    .rounded { border-collapse: separate; border: 3px solid #FF8020; background-color: #FFF4DF; }
-    .rounded-mid { border-collapse: separate; border-left: 3px solid #FF8020; border-right: 3px solid #FF8020; background-color: #FFF4DF; }
-    .rounded-bottom { border-collapse: separate; border-bottom: 3px solid #FF8020; border-left: 3px solid #FF8020; border-right: 3px solid #FF8020; background-color: #FFF4DF; }
-  </mj-style>
   <mj-style>
     html, body {
       min-width: 325px!important;

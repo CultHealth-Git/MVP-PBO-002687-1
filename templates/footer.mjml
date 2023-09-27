@@ -1,7 +1,7 @@
 <mj-wrapper>
   <mj-section full-width="full-width" background-color="#FBF6F4">
     <mj-column vertical-align="middle" padding-bottom="0px">
-      <mj-image src="./images/mvp_logo.png" alt="MVP Logo" padding-top="25px" padding-bottom="10px" align="center" width="208px"></mj-image>
+      <mj-image src="./images/mvp_logo.png" alt="MVP Logo" href="https://mvpoc.org/" target="_blank" padding-top="25px" padding-bottom="10px" align="center" width="208px"></mj-image>
     </mj-column>
   </mj-section>
   <mj-section background-color="#FBF6F4" padding-top="0px">
@@ -11,9 +11,9 @@
       <mj-divider border-width="2px" border-color="#FF8020" padding-right="20px" padding-left="20px" padding-bottom="15px"></mj-divider>
       <mj-text align="center" padding-left="15px" padding-right="15px" color="#222222" padding-bottom="0px" font-size="12px">
       MVP: Momentum and Value for People of Color | 43 Hilltop Rd., Kinnelon, NJ 07405<br>
-      <u>Unsubscribe {recipient's email}</u><br>
-      <u>Our Privacy Policy | Constant Contact Data Notice</u><br>
-      Sent by <a href="#" style="color:#222222; text-decoration:none;">mvp.mvpoc@gmail.com</a>
+      <a href="#" style="color:#222222; text-decoration:underline;" target="_blank">Unsubscribe {recipient's email}</a><br>
+      <a href="https://mvpoc.org/privacy-policy/" style="color:#222222; text-decoration:underline;" target="_blank">Our Privacy Policy | Constant Contact Data Notice</a><br>
+      Sent by <a href="mailto:mvp.mvpoc@gmail.com" style="color:#222222; text-decoration:none;">mvp.mvpoc@gmail.com</a>
       </mj-text>
     </mj-column>
   </mj-section>
